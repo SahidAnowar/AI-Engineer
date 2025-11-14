@@ -1,0 +1,92 @@
+{
+  "email_data": {
+    "valid_emails": [
+      "john.doe@company.com",
+      "sarah.smith@startup.io",
+      "marketing@enterprise.com",
+      "contact@smallbusiness.net",
+      "info@techcorp.org"
+    ],
+    "invalid_emails": [
+      "invalid-email",
+      "missing@domain",
+      "@nodomain.com",
+      "spaces @email.com",
+      "double@@email.com"
+    ],
+    "email_metrics": {
+      "total_sent": 15000,
+      "delivered": 14250,
+      "opened": 4275,
+      "clicked": 855,
+      "bounced": 750,
+      "unsubscribed": 225
+    }
+  },
+  "campaign_data": {
+    "campaigns": [
+      {
+        "id": "camp_001",
+        "name": "Q1 Product Launch",
+        "type": "email",
+        "status": "completed",
+        "metrics": {
+          "sent": 5000,
+          "opened": 1750,
+          "clicked": 350,
+          "converted": 70,
+          "revenue": 35000
+        },
+        "audience": "enterprise_customers",
+        "duration_days": 30
+      },
+      {
+        "id": "camp_002",
+        "name": "Mid-Market Webinar",
+        "type": "email",
+        "status": "active",
+        "metrics": {
+          "sent": 3000,
+          "opened": 900,
+          "clicked": 180,
+          "converted": 36,
+          "revenue": 18000
+        },
+        "audience": "mid_market",
+        "duration_days": 14
+      },
+      {
+        "id": "camp_003",
+        "name": "Small Business Newsletter",
+        "type": "email",
+        "status": "scheduled",
+        "metrics": {
+          "sent": 0,
+          "opened": 0,
+          "clicked": 0,
+          "converted": 0,
+          "revenue": 0
+        },
+        "audience": "small_business",
+        "duration_days": 7
+      }
+    ],
+    "audience_segments": {
+      "enterprise_customers": {
+        "size": 2500,
+        "avg_deal_size": 50000,
+        "conversion_rate": 0.04
+      },
+      "mid_market": {
+        "size": 5000,
+        "avg_deal_size": 15000,
+        "conversion_rate": 0.02
+      },
+      "small_business": {
+        "size": 10000,
+        "avg_deal_size": 3000,
+        "conversion_rate": 0.01
+      }
+    }
+  }
+} 
